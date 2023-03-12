@@ -1,12 +1,11 @@
 FilePond.registerPlugin(
   FilePondPluginImagePreview,
   FilePondPluginImageResize,
-  FilePondPluginFileEncode
+  FilePondPluginFileEncode,
 )
 
 FilePond.setOptions({
-  allowImageResize: true,
-  stylePanelAspectRatio: 150/100,
+  stylePanelAspectRatio: 150 / 100,
   imageResizeTargetWidth: 100,
   imageResizeTargetHeight: 150
 })
